@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgotPage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="forgotBody">
+    <main class="forgotMain">
+        <header class="forgotHeading">
+            <h2>Forgot Password</h2>
+        </header>
+        <article>
+            <label for="oldPassword"> Enter your old Password :</label> <br>
+            <input type="password" id="oldPassword" name="oldPassword" style="margin-bottom: 5px; margin-top: 5px; width: 200px;"> <br>
+            <label for="newPassword"> Enter your new Password :</label> <br>
+            <input type="password" id="newPassword" name="newPassword" style="margin-bottom: 15px; margin-top: 5px; width: 200px; ">
+        </article>
+
+        <footer>
+            <a href="login.html">
+                <button type="button" style="margin-left: 20px; width: 80px; height:30px; background-color: red;color: white;">Back</button>
+            </a>
+            <button type="button" onclick="submit()" style="margin-left: 20px; width: 80px; height:30px; background-color: red;color: white;">submit</button>
+            <p id="submit"> </p>
+        </footer>
+    </main>
+    
+</body>
+</html>

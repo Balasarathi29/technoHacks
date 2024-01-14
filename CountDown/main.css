@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00b3ff;
+}
+
+.timer-container {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px ;
+    padding: 20px;
+    background-color: white;
+}
+
+#display {
+    font-size: 36px;
+    margin: 20px;
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+}
+p{
+    color:#112A46;
+}

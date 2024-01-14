@@ -11,5 +11,13 @@ function validateLogin() {
 }
 function submit(){
     const newPassword = document.getElementById("newPassword").value;
-    
+    const reNewpassword = document.getElementById("reNewpassword").value;
+    const changedPassword = newPassword;
+    if(newPassword && reNewpassword &&newPassword === reNewpassword)
+    {
+        alert("Password changed Successfully");
+    }    
+    else {
+        alert("password doesn't Match");
+    }
 }

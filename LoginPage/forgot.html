@@ -11,21 +11,17 @@
         <header class="forgotHeading">
             <h2>Forgot Password</h2>
         </header>
-        <article>
-            <label for="oldPassword"> Enter your old Password :</label> <br>
-            <input type="password" id="oldPassword" name="oldPassword" style="margin-bottom: 15px; margin-top: 15px; width: 200px;"> <br>
-            <label for="newPassword"> Enter your new Password :</label> <br>
-            <input type="password" id="newPassword" name="newPassword" style="margin-bottom: 15px; margin-top: 15px; width: 200px; ">
-        </article>
-
-        <footer>
+        <form>
+            <label for="newPassword"> Enter your New Password :</label> <br>
+            <input type="password" id="newPassword" name="newPassword" style=" width: 200px;" required> <br>
+            <label for="reNewpassword">  RE-Enter New Password :</label> <br>
+            <input type="password" id="reNewpassword" name="reNewpassword" style="width: 200px;margin-bottom: 15px;" required>
+        </form>
             <a href="login.html">
-                <button type="button" style="margin-left: 20px; width: 80px; height:30px; background-color: red;color: white;">Back</button>
+                <button type="button" style="margin-left: 40px; width: 80px; height:30px; background-color: red;color: white;">Back</button>
             </a>
             <button type="button" onclick="submit()" style="margin-left: 20px; width: 80px; height:30px; background-color: red;color: white;">submit</button>
-            <p id="submit"> </p>
-        </footer>
     </main>
-    
+    <script src="script.js"></script>
 </body>
 </html>
